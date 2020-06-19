@@ -9,7 +9,7 @@ if(empty($name) || empty($email) || empty($message)){
     echo('Please fill all the Details');
 }else{
     //Send Email and print sender confirmation
-    mail("hritikbagane@gmail.com", "Portfolio Message", $message, "From: $name <$email>");
+    mail("201700049@vupune.ac.in", "Portfolio Message", $message, "From: $name <$email>");
 
     echo "<script type='text/javascript'> alert('Message Successfully Sent!'); 
             window.history.log(-1);
